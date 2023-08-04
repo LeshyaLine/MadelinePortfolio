@@ -1,6 +1,8 @@
 .globalbody{
     background-color: #96999d;
-    height: auto;
+    /* height: auto; */
+    height: 100vh;
+    box-sizing: border-box;
     padding: 0px;
     margin: 0px;
   }
@@ -11,7 +13,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 90vh;
+  height: 94vh;
 }
 
 .maintitle{

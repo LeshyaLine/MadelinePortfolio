@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import styles from '@/app/Kontakt/page.module.css';
 
 function Kontakt() {
   return (
-    <div>Hier entsteht das Kontaktformular!</div>
+    <main className={styles.maincontainer}>
+      <h1>Hier entsteht das Kontaktformular</h1>
+    </main>
   )
 }
 

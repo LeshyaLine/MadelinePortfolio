@@ -1,0 +1,7 @@
+.maincontainer{
+    border: 2px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 94vh;
+}
