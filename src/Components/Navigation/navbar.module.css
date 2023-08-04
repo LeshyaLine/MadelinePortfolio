@@ -1,0 +1,13 @@
+.navigationcontainer{
+    border: 1px solid red;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 5vh;
+}
+
+.navigationlink{
+    text-decoration: none;
+}

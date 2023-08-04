@@ -1,0 +1,28 @@
+.globalbody{
+    background-color: #96999d;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+  }
+
+.maincontainer{
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.maintitle{
+  color: #253a2f;
+}
+
+.myname{
+  color: #6bceb6
+}
+
+.pbold{
+  font-weight: bolder;
+  color: white;
+}
