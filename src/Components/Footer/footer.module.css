@@ -1,6 +1,6 @@
 .navigationcontainer{
     border: 1px solid red;
-
+    background-color: pink;
     display: flex;
     justify-content: space-around;
     align-items: center;
