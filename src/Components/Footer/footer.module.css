@@ -1,0 +1,17 @@
+.footercontainer{
+    /* border: 1px solid red; */
+    /* background-color: pink; */
+    color: crimson;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    height: 3vh;*/
+} 
+
+.footerlink{
+    text-decoration: none;
+    color: crimson;
+}

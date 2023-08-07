@@ -1,3 +1,4 @@
+import Footer from '@/Components/Footer/footer'
 import Navigation from '@/Components/Navigation/navbar'
 // import './globals.css'
 import styles from '@/app/page.module.css'
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
       <body className={styles.globalbody}>
         <Navigation/>
         {children}
+        < Footer/>
         </body>
     </html>
   )
