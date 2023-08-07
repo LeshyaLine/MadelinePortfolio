@@ -1,16 +1,47 @@
-.navigationcontainer{
+.navi_wrapper{
     border: 1px solid red;
 
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 
     backdrop-filter: blur(5px);
     position: sticky;
     top: 0px;
 
-    height: 5vh;
+    height: 20vh;
 }
+
+.logo{
+    /* border: 1px solid green; */
+    height: 100%;
+    width: 20%;
+
+    display: flex;
+    justify-content: left;
+    align-items: center
+}
+
+.logoimage{
+    height: 300px;
+    width: 300px;
+    
+    /* border: solid red 2px; */
+}
+
+
+
+.navigationcontainer{
+    /* border: 1px solid green;  */
+    height: 100%;
+    width: 80%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 
 .navigationlink{
     text-decoration: none;
