@@ -1,5 +1,5 @@
 .navi_wrapper{
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
     display: flex;
     justify-content: space-around;
@@ -46,4 +46,5 @@
 .navigationlink{
     text-decoration: none;
     color: crimson;
+    font-size: 40px;
 }
