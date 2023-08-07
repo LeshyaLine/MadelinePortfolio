@@ -1,0 +1,40 @@
+.maincontainer{
+    border: 2px solid yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 94vh;
+}
+
+.kontaktcontainer{
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-evenly;
+
+    padding: 1rem;
+    width: 80vw;;
+}
+
+.kontaktadresse{
+    border: 2px solid green;
+
+    padding: 1rem;
+}
+
+.kontaktformular{
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+
+    padding: 1rem;
+}
+
+.input{
+    background: transparent;
+    color: crimson;
+
+    outline: none;
+    box-shadow: none;
+    text-decoration: none;
+}

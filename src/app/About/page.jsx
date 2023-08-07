@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import styles from '@/app/About/page.module.css';
 
 function About() {
   return (
-    <div>Hier kommt Wissenswertes über mich rein :D </div>
+    <main className={styles.maincontainer}> 
+    <h1>Über mich:</h1>
+      <p>Hier kommt Wissenswertes über mich rein :D</p>
+    </main>
   )
 }
 
