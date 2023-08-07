@@ -1,10 +1,13 @@
 .globalbody{
-    background-color: #96999d;
+    /* background-color: #96999d; */
+    background-color: black;
     /* height: auto; */
-    height: 100vh;
+    height: 300vh;
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+
+    color: crimson;
   }
 
 .maincontainer{

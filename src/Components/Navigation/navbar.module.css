@@ -5,9 +5,14 @@
     justify-content: space-around;
     align-items: center;
 
+    backdrop-filter: blur(5px);
+    position: sticky;
+    top: 0px;
+
     height: 5vh;
 }
 
 .navigationlink{
     text-decoration: none;
+    color: crimson;
 }
