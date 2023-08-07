@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
       <body className={styles.globalbody}>
         <Navigation/>
         {children}
-        <Footer/>
+        < Footer/>
         </body>
     </html>
   )
