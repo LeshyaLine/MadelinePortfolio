@@ -5,7 +5,7 @@
     justify-content: space-around;
     align-items: center;
     
-
+    background-color: transparent;
     backdrop-filter: blur(5px);
     position: sticky;
     top: 0px;
@@ -24,10 +24,10 @@
 }
 
 .logoimage{
-    height: 300px;
-    width: 300px;
+    height: 100%;
+    width: 70%;
     
-    /* border: solid red 2px; */
+    border: solid red 2px;
 }
 
 
@@ -38,13 +38,43 @@
     width: 80%;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
+.rundeeckensection{
+    /* border: 1px dotted blue; */
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.rundeeckenspan{
+    /* border: 1px green dotted; */
+    background-color: transparent;
+    border-radius: 0px 100px 100px 0px;
+    width: 70%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rundeeckenspan:hover{
+    background-color: white;
+}
+
+.navigationlink:hover{
+    font-size: 60px;
+    font-family: fantasy;
+}
 
 .navigationlink{
     text-decoration: none;
     color: crimson;
+    font-family: fantasy;
     font-size: 40px;
 }
