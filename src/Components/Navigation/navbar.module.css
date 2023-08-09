@@ -1,6 +1,5 @@
 .navi_wrapper{
-    /* border: 1px solid red; */
-
+    border-bottom: 1px solid crimson;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -9,12 +8,15 @@
     backdrop-filter: blur(5px);
     position: sticky;
     top: 0px;
-
-    height: 20vh;
+    background-image: url(/assets/putzwand.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 15vh;
 }
 
 .logo{
     /* border: 1px solid green; */
+    /* background-color: black; */
     height: 100%;
     width: 20%;
 
@@ -27,7 +29,7 @@
     height: 100%;
     width: 70%;
     
-    border: solid red 2px;
+    /* border: solid red 2px; */
 }
 
 
@@ -40,6 +42,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
 }
 
 .rundeeckensection{
@@ -55,7 +60,7 @@
 .rundeeckenspan{
     /* border: 1px green dotted; */
     background-color: transparent;
-    border-radius: 0px 100px 100px 0px;
+    border-radius: 100px 0px 100px 0px;
     width: 70%;
     height: 80%;
     display: flex;
@@ -64,13 +69,15 @@
 }
 
 .rundeeckenspan:hover{
-    background-color: white;
+    backdrop-filter: blur(5px);
+    border: 2px solid crimson;
+    font-size: 60px;
 }
 
-.navigationlink:hover{
+/* .navigationlink:hover{
     font-size: 60px;
     font-family: fantasy;
-}
+} */
 
 .navigationlink{
     text-decoration: none;

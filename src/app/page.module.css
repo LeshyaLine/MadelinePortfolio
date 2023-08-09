@@ -1,33 +1,84 @@
 .globalbody{
     /* background-color: #96999d; */
-    background-color: black;
+    /* background-color: rgb(146, 144, 143);  */
+    /* background-color: black; */
     /* height: auto; */
-    height: 300vh;
+    height: 100vh;
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+        
 
-    color: crimson;
+    /* color: crimson; */
   }
 
 .maincontainer{
-  border: 1px solid red;
+  /* margin-top: 20vh; */
+  /* padding-top: 5%; */
+  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
-  height: 94vh;
+  height: auto;
+
 }
 
 .maintitle{
-  color: #253a2f;
+  /* margin-left: 100px; */
+  /* color: #253a2f; */
+  /* color: crimson; */
+  font-size: 80px;
+
 }
 
 .myname{
-  color: #6bceb6
+  /* color: #6bceb6  */
+  color:crimson;
+  font-size: 8rem;
+  /* font-family: spa; */
 }
+
+.kreative{
+  color: crimson;
+  font-size: larger;
+  text-shadow:  1px 1px 2px crimson, 0 0 1em crimson, 0 0 0.2em crimson;
+}
+
+.heins{
+  margin-left: 1%;
+  margin-top: 5%;
+  border-radius: 80px 0px 80px 00px;
+  border: 1px solid crimson;
+  width: 65%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* left:0px; */
+  background-image: url(/assets/putzwand.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hzwei{
+  margin-top: 5%;
+  margin-right: 1%;
+  border-radius: 00px 80px 00px 80px;
+  border: 1px solid crimson;
+  width: 65%;
+  height: 300px;
+  display: flex;
+  align-self: end;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/assets/putzwand.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 
 .pbold{
   font-weight: bolder;
-  color: white;
+  /* color: white; */
 }
